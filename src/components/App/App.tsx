@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import Hello from '@components/Hello';
-import World from '@components/World';
 
 import style from './App.scss';
+import { UserProfile } from '@components/UserProfile/UserProfile';
 
 export const App = (): JSX.Element => (
   <div className={style.componentWrapper}>
@@ -17,7 +17,7 @@ export const App = (): JSX.Element => (
       </nav>
       <Routes>
         <Route path="/" element={<Hello />} />
-        <Route path="/world" element={<World />} />
+        <Route path="/world" element={<UserProfile userBio="A Programmer" userName="Jack" />} />
       </Routes>
     </BrowserRouter>
   </div>
