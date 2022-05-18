@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import { UserProfile } from '@components/UserProfile/UserProfile';
 
-describe('UserProfile component', () => {
+describe('UserPage component', () => {
   test('should render component properly', () => {
     // given
     const dummyComponentProps = {

@@ -2,7 +2,7 @@ import React from 'react';
 import { UserProfile } from '@components/UserProfile/UserProfile';
 import { render, fireEvent } from '@testing-library/react';
 
-describe('UserProfile component handlers specs', () => {
+describe('UserPage component handlers specs', () => {
   describe('initialComponentProps', () => {
     test('should call closeRightSection callback', () => {
       const handleClick = jest.fn();
