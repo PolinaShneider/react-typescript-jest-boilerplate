@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserProfile component should render component properly 1`] = `
-<div>
+exports[`UserPage component should render component properly 1`] = `
+<div
+  className="userProfile"
+>
   <h1>
     Vasua Pupkin
   </h1>
