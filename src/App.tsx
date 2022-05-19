@@ -13,7 +13,7 @@ const App = (): JSX.Element => (
       <nav className={style.routingWrapper}>
         <b>Routing: </b>
         <Link to="/">Home</Link>
-        <Link to="/world">User profile</Link>
+        <Link to="/user">User profile</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Hello />} />
